@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/menu_view_product"
+            android:title="@string/menu_view_product" />
+    <item
+            android:id="@+id/menu_view_outfit"
+            android:title="@string/menu_view_outfit" />
+    <item
+            android:id="@+id/menu_view_large"
+            android:title="@string/menu_view_large" />
+    <item
+            android:id="@+id/menu_view_small"
+            android:title="@string/menu_view_small" />
+
+
+</menu>

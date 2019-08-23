@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:elevation="6dp">
+        <ImageView
+                android:id="@+id/ic_close"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/ic_close_black"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextHeader"
+                android:text="@string/filter"
+                android:layout_marginStart="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ic_close"
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/filter_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+        <TextView
+                android:id="@+id/text_brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextHeader"
+                android:text="@string/filter_brand"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/gray_500"
+                android:layout_height="wrap_content"
+                style="@style/TextProduct"
+                android:text="All"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@id/text_brand"
+                app:layout_constraintStart_toStartOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+          android:background="@color/gray_100"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/filter_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+        <TextView
+                android:id="@+id/text_department"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextHeader"
+                android:text="@string/filter_department"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextProduct"
+                android:textColor="@color/gray_500"
+                android:layout_marginTop="8dp"
+                android:text="All"
+                app:layout_constraintTop_toBottomOf="@id/text_department"
+                app:layout_constraintStart_toStartOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+          android:background="@color/gray_100"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/filter_colour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+        <TextView
+                android:id="@+id/text_colour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextHeader"
+                android:text="@string/filter_colour"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextProduct"
+                android:textColor="@color/gray_500"
+                android:layout_marginTop="8dp"
+                android:text="All"
+                app:layout_constraintTop_toBottomOf="@id/text_colour"
+                app:layout_constraintStart_toStartOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+          android:background="@color/gray_100"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/filter_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+        <TextView
+                android:id="@+id/text_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextHeader"
+                android:text="@string/filter_gender"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextProduct"
+                android:textColor="@color/gray_500"
+                android:layout_marginTop="8dp"
+                android:text="All"
+                app:layout_constraintTop_toBottomOf="@id/text_gender"
+                app:layout_constraintStart_toStartOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+          android:background="@color/gray_100"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/filter_clothingsize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+        <TextView
+                android:id="@+id/text_clothingsize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextHeader"
+                android:text="@string/filter_clothingsize"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextProduct"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/gray_500"
+                android:text="All"
+                app:layout_constraintTop_toBottomOf="@id/text_clothingsize"
+                app:layout_constraintStart_toStartOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SEND. Clothing</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="toolbar_title_sample">Shirts</string>
+    <string name="dialogmessage_nointernet">There is a problem connecting to our servers. Press OK to try again.</string>
+    <string name="ok">Ok</string>
+
+    <!-- Toolbar -->
+    <string name="menu_sort_latest">Latest</string>
+    <string name="menu_sort_pricehigh">Price (High)</string>
+    <string name="menu_sort_pricelow">Price (Low)</string>
+    <string name="menu_view_product">Product</string>
+    <string name="menu_view_outfit">Outfit</string>
+    <string name="menu_view_large">Large</string>
+    <string name="menu_view_small">Small</string>
+
+    <string name="filter">Filter</string>
+    <string name="filter_brand">Brand</string>
+    <string name="filter_department">Department</string>
+    <string name="filter_colour">Colour</string>
+    <string name="filter_gender">Gender</string>
+    <string name="filter_clothingsize">Clothing Size</string>
+
+    <string name="nav_search">Search</string>
+    <string name="nav_bookmarks">Bookmarks</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_cart">Cart</string>
+
+</resources>
